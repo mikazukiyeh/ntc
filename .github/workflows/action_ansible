@@ -23,4 +23,4 @@ jobs:
 
       - name: SSH to node11.puyuma.org
         run: |
-          ssh -v -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa ubuntu@node11.puyuma.org -p 2222 "ansible-playbook ansible-playbook/eid-signin.yaml"
+          ssh -v -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa maple@0.tcp.jp.ngrok.io -p 12648 "ansible-playbook ansible-playbook/eid-signin.yaml"
