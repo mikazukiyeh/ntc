@@ -1,7 +1,5 @@
 FROM python
 
-LABEL version = "1.0" Copyright="2023" owner="acero"
-
 EXPOSE 5001
 
 WORKDIR /app
